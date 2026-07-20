@@ -9,6 +9,10 @@ int main(){
 	N[1]=5;
 	N[2]=1;
 	N[3]=0;
-	cout << N[0] << endl << N[1] << endl << N[2] << endl << N[3] << endl;
+
+	cout << N[0] << endl;
+	cout << N[1] << endl;
+	cout << N[2] << endl;
+	cout << N[3] << endl;
 	return 0;
 }
