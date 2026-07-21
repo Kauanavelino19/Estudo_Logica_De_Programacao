@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-void ParOuImpar(int a, int b, int soma) {
+static void ParOuImpar(int a, int b, int soma) {
     cout << "Recebir o valor " << a << endl;
     cout << "Recebir o valor " << b << endl;
     soma = a + b;

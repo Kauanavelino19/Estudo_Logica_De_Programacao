@@ -2,7 +2,7 @@ algoritmo "Aula04CoparandoNumero"
 //  
 //  
 var
-  A,B,C:Inteiro
+  A: Vetor[1..3] de Inteiro
 inicio
      //Escreva("A: ")
       //Leia(A)
@@ -13,9 +13,9 @@ inicio
       //Escreva("C: ")
       //Leia(C)
 
-      A<-2
-      B<-3
-      C <- 5
+      A[1]<-2
+      A[2]<-3
+      A[3] <- 5
       
-      EscrevaL((A>B) ou (C>A))
+      EscrevaL((A[1]>A[2]) ou (A[3]>A[1]))
 fimalgoritmo
